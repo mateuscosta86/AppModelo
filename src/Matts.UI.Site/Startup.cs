@@ -28,6 +28,7 @@ namespace Matts.UI.Site
 				app.UseDeveloperExceptionPage();
 			}
 
+			app.UseStaticFiles();
 			app.UseRouting();
 
 			app.UseEndpoints(endpoints =>

@@ -6,6 +6,12 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="wwwroot\css" />
+    <Folder Include="wwwroot\js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\lib\js\bootstrap.js" />
   </ItemGroup>
 
 </Project>

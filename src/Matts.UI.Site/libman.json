@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": ".\\wwwroot\\lib",
+  "libraries": [
+    {
+      "library": "twitter-bootstrap@4.2.1",
+      "destination": "wwwroot/lib/bootstrap",
+      "files": [
+        "js/bootstrap.js",
+        "css/bootstrap-grid.css",
+        "css/bootstrap-reboot.css",
+        "css/bootstrap.css"
+      ]
+    },
+    {
+      "library": "jquery-validate@1.19.0",
+      "destination": "wwwroot/lib/jquery-validate",
+      "files": [
+        "jquery.validate.js",
+        "additional-methods.js",
+        "localization/methods_pt.js"
+      ]
+    },
+    {
+      "library": "jquery@3.3.1",
+      "destination": "wwwroot/lib/jquery",
+      "files": [
+        "jquery.js",
+        "core.js"
+      ]
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "wwwroot/lib/font-awesome",
+      "files": [
+        "css/font-awesome.css",
+        "fonts/*"
+      ]
+    }
+  ]
+}
